@@ -1,0 +1,21 @@
+body{
+    background-image: url(75.png);
+    color: white;
+}
+.col{
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.my-active{
+    border: 1px solid white;
+}
+td>a{
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: 900;
+}
+td>a:hover{
+    text-decoration:underline;
+    color: white;
+}

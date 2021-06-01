@@ -1,0 +1,6 @@
+куб-<img src="4905421594189621.png" width="100px" alt="">
+шар-<img src="Ball06.png" width="100px" alt="">
+НЛО-<img src="UFO.png" width="100px" alt="">
+волна-<img src="Wave.png" width="100px" alt="">
+робот-<img src="Robot.png" width="100px" alt="">
+
