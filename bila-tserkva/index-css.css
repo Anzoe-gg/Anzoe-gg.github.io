@@ -1,0 +1,226 @@
+.img1{
+    width: 100%;
+    border-radius: 10px;
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    padding: 60px 0;
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, #043410, #154813, #295c12, #40700d, #5b8400);
+}
+.text1{
+    text-align: center;
+    padding: 40px 0;
+
+}
+.text3{
+    text-align: center;
+}
+.img-fluid1{
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.park{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text11{
+    margin-left: 10px;
+}*{
+    box-sizing: border-box;
+}
+.long-slider{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 20px 0;
+    /* overflow: hidden; */
+    /* transform: translateX(); */
+}
+.arrow-left, .arrow-right{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(196, 196, 196, 0.356);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    transition: 0.8s;
+    font-size: 4em;
+}
+.arrow-left:hover, .arrow-right:hover{
+    background-color: rgba(0, 0, 0, 0.658);
+
+}
+.arrow-right{
+    right: 0;
+}
+
+.item-wrap{
+    /* position: absolute; */
+    display: flex;
+    height: 300px;
+    transition: 0.7s ease-out;
+    max-width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin-top: 15px;
+}
+.slider-item{
+    width: 450px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.item-wrap img{
+    height: 100%;
+    border-radius: 10px;
+}
+/* Works on Chrome, Edge, and Safari */
+
+.item-wrap::-webkit-scrollbar {
+    height: 4px;               /* висота/ширина скрола */
+  }
+  
+  .item-wrap::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);        /*смужка */
+  }
+  
+  .item-wrap::-webkit-scrollbar-thumb { /*те, що їздить */
+    background-color: rgb(218, 218, 218);    
+    border-radius: 20px;      
+    /* border: 3px solid rgb(163, 163, 163);  */
+  }
+  .item-wrap::-webkit-scrollbar-thumb:hover { /*те, що їздить */
+    background-color: rgb(0, 0, 0);    
+  
+  }
+/* Works on Firefox */
+.item-wrap{
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+  }
+
+
+.pdoduct-card{
+    padding: 20px;
+    margin-left: 20px;
+    width: 300px;
+    background-color: rgb(228, 228, 228);
+    transition: 0.8s;
+ }
+.pdoduct-card:hover{
+    transform: scale(1.1);
+    background-color: rgb(247, 244, 244);
+
+ }
+.tel-btn{
+     font-size: 1.1rem;
+     border: 2px solid rgb(0, 0, 0);
+ }
+ .tel-btn:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ros{
+    padding: 40px 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #043410;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ros1{
+    width: 100%;
+    border-radius: 10px;
+}
+.img1{
+    width: 100%;
+}
+.torgo{
+    width: 100%;
+    border-radius: 10px;
+}
+.radi{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row{
+    align-items: center;
+}
+footer{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    color: gray;
+}
+.socio-link{
+    font-size: 2.3rem;
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.socio-link:hover{
+    color: #5b8400;
+    text-shadow: 0px 0px 3px white;
+}
+
+
+.img-full-show{
+    height: 80%;
+ }
+
+ .img-galery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(155, 155, 155, 0.698);
+    z-index: 50;
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 3rem;
+}
